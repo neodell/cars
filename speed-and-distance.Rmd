@@ -1,13 +1,14 @@
 ---
 title: "speed-and-distance"
-output: html_document
-date: "2024-11-21"
----
-  knit: (function(input_file, encoding) {
+knit: (function(input_file, encoding) {
     out_dir <- 'docs';
     rmarkdown::render(input_file,
       encoding=encoding,
       output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+output: html_document
+date: "2024-11-21"
+---
+
       
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
